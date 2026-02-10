@@ -36,9 +36,7 @@ export default defineConfig({
 
   // [Adapter]
   // https://docs.astro.build/en/guides/deploy/
-  adapter: cloudflare({
-    mode: 'advanced',
-  }),
+  adapter: cloudflare(),
   output: 'server',
   // Local (standalone)
   // adapter: node({ mode: 'standalone' }),
